@@ -113,8 +113,8 @@ p {
 
 img {
 
-  max-width: 560px;
-  min-width: 290px;
+  max-width: 94%;
+  min-width: 90%;
   height:auto;
   background: #ccc;
   padding-left: 0px;
