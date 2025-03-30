@@ -20,7 +20,8 @@ h2 {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 96%;
+  font-family:century;
 
 }
 
@@ -41,8 +42,24 @@ td {
   text-align: center;
 }
 
+div{
+    font-family:century;
+}
+
+section {
+    font-family:century;
+}
+
+p{
+    font-family:century;
+}
+
+a{
+    font-family:century;
+}
+
 body {
-  font-family: montserrat, century gothic , sans-serif; Tahoma, sans-serif;script;
+  font-family: century, century gothic , sans-serif; Tahoma, sans-serif;script;
   background-color:#555555;
 }
 
@@ -138,7 +155,7 @@ footer {
 each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article, p, caption {
-    width: 100%;
+    width: 96%;
     height: auto;
   }
 }
@@ -185,7 +202,7 @@ each other instead of next to each other, on small screens */
     URL('Montserrat-Medium.ttf'),format('truetype'),
     URL('Montserrat-SemiBold.ttf'),format('truetype'),
 
-Montserrat-Regular
+
 
 }
 
