@@ -10,7 +10,8 @@
             z-index: 1100; /* Ensures it stays on top */
         }
         .home-link:hover {
-            background-color: #FFFFFF;
+            background-color: #CCFAFA;
+            color: #A0A0D0;
         }
 
 h2 {
