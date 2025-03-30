@@ -176,6 +176,19 @@ each other instead of next to each other, on small screens */
         }
 
 
+@font-face {
+   font-family: montserrat;
+   URL('Montserrat-VariableFont_wght.ttf'),format('truetype'),
+   URL('Montserrat-Bold.ttf'),format('truetype'),
+    URL('Montserrat-ExtraBold.ttf'),format('truetype'),
+    URL('Montserrat-Regular.ttf'),format('truetype'),
+    URL('Montserrat-Medium.ttf'),format('truetype'),
+    URL('Montserrat-SemiBold.ttf'),format('truetype'),
+
+Montserrat-Regular
+
+}
+
 
 
 
