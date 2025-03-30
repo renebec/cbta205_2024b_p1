@@ -10,8 +10,12 @@
             z-index: 1100; /* Ensures it stays on top */
         }
         .home-link:hover {
-            background-color: #e5a049;
+            background-color: #FFFFFF;
         }
+
+h2 {
+
+}
 
 table {
   border-collapse: collapse;
