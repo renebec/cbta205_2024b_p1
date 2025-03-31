@@ -226,6 +226,16 @@ each other instead of next to each other, on small screens */
   font-style: italic;
 }
 
+a.button {
 
+        padding: 1px 6px;
+        display: block;
+        display: inline-block;
+    border: 2px outset buttonborder;
+    border-radius: 3px;
+    color: green;
+    background-color: buttonface;
+    text-decoration: none;
+}
 
 
