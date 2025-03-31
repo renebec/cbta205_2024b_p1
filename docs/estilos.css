@@ -116,8 +116,8 @@ p {
 img {
 
   max-width: 94%;
-  min-width: 90%;
-  height:auto;
+  min-width: 180px;
+  max-height:320px;
   background: #ccc;
   padding-left: 0px;
   padding-bottom: 0px;
@@ -138,12 +138,7 @@ article {
   height: 300px; /* only for demonstration, should be removed */
 }
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /* Style the footer */
 footer {
@@ -195,11 +190,6 @@ each other instead of next to each other, on small screens */
         }
 
 
-@font-face {
-   font-family: century;
-   URL('Montserrat-VariableFont_wght.ttf'),format('truetype'),
-
-}
 
 
 .lato-regular {
@@ -237,5 +227,10 @@ a.button {
     background-color: buttonface;
     text-decoration: none;
 }
+
+h1{
+    font-family:Lato;
+}
+
 
 
