@@ -58,6 +58,7 @@ p{
 a{
     font-family:Lato;
     font-size:16px;
+    font-weight:bold;
 }
 
 body {
@@ -121,6 +122,31 @@ img {
   background: #ccc;
   padding-left: 0px;
   padding-bottom: 0px;
+  }
+
+.bi {
+  width:auto;
+  max-height:1600px;
+  background: #ccc;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  }
+
+.bbi {
+  width:auto;
+  max-height:1600px;
+  background: #ccc;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  }
+
+.bbii {
+  width:auto;
+  max-height:1600px;
+  background: #ccc;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  }
 
 /* Style the list inside the menu */
 nav ul {
