@@ -89,7 +89,7 @@
   <a href="#mean">Promedios</a>
   <a class="active" href="#repro">Reprobación</a>
   <a href="#dest">Destacados</a>
-  <a class="active" href="#tab8">Glosario de UA</a>
+  <a class="active" href="#tab9">Glosario de UA</a>
 
 </div>
 
@@ -133,11 +133,13 @@
               &emsp;Tabla 5 </a><br>
           <a style="color:#d9fc99;" class="link" href="#tab6" style="font-size:14px;line-height:16px">
               &emsp;Tabla 6 </a><br>
-    <a style="color:#04fda2;" class="link" href="#dest"> Destacados </a><br>
           <a style="color:#d9fc99;" class="link" href="#tab7" style="font-size:14px;line-height:16px">
               &emsp;Tabla 7 </a><br>
+    <a style="color:#04fda2;" class="link" href="#dest"> Destacados </a><br>
+          <a style="color:#d9fc99;" class="link" href="#tab8" style="font-size:14px;line-height:16px">
+              &emsp;Tabla 8 </a><br>
 
-    <a style="color:#04fda2;" class="link" href="#tab8"> Glosario de UA </a><br>
+    <a style="color:#04fda2;" class="link" href="#tab9"> Glosario de UA </a><br>
 <br>
     <br>
     <section style="padding-left:5%; padding-right:5%;text-align:justify;
@@ -253,7 +255,9 @@ Se contabilizaron <b>{{reprobados}}</b> alumnos con alguna calificación reproba
     <a style="color:#04aa6d;" class="link" href="#tab5">Tabla 5</a>.
     Los porcentajes de reprobación <b>por asignatura</b>
     se muestran en la
-    <a style="color:#04aa6d;" class="link" href="#tab6">Tabla 6</a>.
+    <a style="color:#04aa6d;" class="link" href="#tab6">Tabla 6</a>. En la
+    <a style="color:#04aa6d;" class="link" href="#tab7">Tabla 7</a>
+    se muestran las asignaturas reprobadas por cada alumno.
     </p>
 
             <h2 id="dest" style="text-align:center;">
@@ -271,7 +275,7 @@ Se detectaron <b>{{destacados}}</b> alumnos destacados (<b>{{destacados_perc}}%<
     mismos que
     alcanzaron calificaciones de 9 o de
     10 en <b>más del 75%</b> de las asignaturas que están cursando. La
-    <a style="color:#04aa6d;" class="link" href="#tab7">Tabla 7</a>
+    <a style="color:#04aa6d;" class="link" href="#tab8">Tabla 8</a>
     muestra los <b>alumnos destacados</b> durante el período observado.
 
 </p>
@@ -345,24 +349,32 @@ marzo de 2025</section>
                 <br>
             <br>
         <br>
-        Tabla 6. Reprobación por asignatura.</h4>
+        Tabla 6. Reprobación por asignatura (<a class="active" href="#tab9">Glosario de UA</a>).</h4>
     <div>{{rep_asig}}</div>
-    <br>
-    <br>
-    <h4 id="tab7">
-                <br>
-            <br>
-        <br>
-        Tabla 7. Alumnos destacados.</h4>
-    <div>{{al_destacados}}</div>
     <br>
     <br>
     <h4 id="tab8">
                 <br>
             <br>
         <br>
-        Tabla 8. Glosario Códigos de Asignaturas o Unidades de Aprendizaje.</h4>
+        Tabla 8. Alumnos destacados.</h4>
+    <div>{{al_destacados}}</div>
+    <br>
+    <br>
+    <h4 id="tab9">
+                <br>
+            <br>
+        <br>
+        Tabla 9. Glosario Códigos de Asignaturas o Unidades de Aprendizaje.</h4>
     <div>{{glosario}}</div>
+    <br>
+    <br>
+            <h4 id="tab7">
+                <br>
+            <br>
+        <br>
+        Tabla 7. Asignaturas reprobadas por alumno (<a class="active" href="#tab9">Glosario de UA</a>).</h4>
+    <div>{{by_group_asigs_rep}}</div>
     <br>
     <br>
 
