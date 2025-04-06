@@ -1,4 +1,4 @@
-.home-link1 {
+.home-link {
             position: fixed;
             top: 10%;
             right: 10px;
@@ -14,7 +14,7 @@
             color: #A0A0D0;
         }
 
-.home-link2 {
+.home-link1 {
             position: fixed;
             top: 20%;
             right: 10px;
