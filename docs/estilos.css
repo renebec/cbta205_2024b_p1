@@ -29,7 +29,11 @@
             background-color: #CCFAFA;
             color: #A0A0D0;
         }
+.port{
+	width:70%;
+	max-height:420px;
 
+}
 h2 {
 
 }
@@ -134,11 +138,11 @@ p {
 
 img {
 
-  max-width: 94%;
+  max-width: 40%;
   min-width: 180px;
-  max-height:320px;
+  max-height:420px;
   background: #ccc;
-  padding-left: 0px;
+  margin-right: 50px;
   padding-bottom: 0px;
   }
 
