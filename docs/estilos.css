@@ -1,4 +1,20 @@
-.home-link {
+.home-link1 {
+            position: fixed;
+            top: 10%;
+            right: 10px;
+            background-color: #04556D;
+            color: yellow;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            z-index: 1100; /* Ensures it stays on top */
+        }
+        .home-link:hover {
+            background-color: #CCFAFA;
+            color: #A0A0D0;
+        }
+
+.home-link2 {
             position: fixed;
             top: 20%;
             right: 10px;
@@ -25,6 +41,8 @@ table {
   font-size:10px;
 
 }
+
+#fig3 { float: right; }
 
 tr:hover {background-color: #D6EEEE;}
 
